@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4E51ED1E46DD1200FD4898 /* Paper Format TMLI SI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E51E51E46DD1200FD4898 /* Paper Format TMLI SI.m */; };
+		9B4E51EE1E46DD1200FD4898 /* Paper Format TMLI SPAJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E51E71E46DD1200FD4898 /* Paper Format TMLI SPAJ.m */; };
+		9B4E51EF1E46DD1200FD4898 /* Print Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E51E91E46DD1200FD4898 /* Print Engine.m */; };
+		9B4E51F01E46DD1200FD4898 /* Print Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E51EB1E46DD1200FD4898 /* Print Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BAB47191E1E345E00BF517C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB47331E1E440400BF517C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B4E51E41E46DD0700FD4898 /* Paper Format TMLI SI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Paper Format TMLI SI.h"; path = "PDF Printer for TMLI/Paper Format TMLI SI.h"; sourceTree = SOURCE_ROOT; };
+		9B4E51E51E46DD1200FD4898 /* Paper Format TMLI SI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Paper Format TMLI SI.m"; path = "PDF Printer for TMLI/Paper Format TMLI SI.m"; sourceTree = SOURCE_ROOT; };
+		9B4E51E61E46DD1200FD4898 /* Paper Format TMLI SPAJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Paper Format TMLI SPAJ.h"; path = "PDF Printer for TMLI/Paper Format TMLI SPAJ.h"; sourceTree = SOURCE_ROOT; };
+		9B4E51E71E46DD1200FD4898 /* Paper Format TMLI SPAJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Paper Format TMLI SPAJ.m"; path = "PDF Printer for TMLI/Paper Format TMLI SPAJ.m"; sourceTree = SOURCE_ROOT; };
+		9B4E51E81E46DD1200FD4898 /* Print Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Print Engine.h"; path = "PDF Printer for TMLI/Print Engine.h"; sourceTree = SOURCE_ROOT; };
+		9B4E51E91E46DD1200FD4898 /* Print Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Print Engine.m"; path = "PDF Printer for TMLI/Print Engine.m"; sourceTree = SOURCE_ROOT; };
+		9B4E51EA1E46DD1200FD4898 /* Print Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Print Helper.h"; path = "PDF Printer for TMLI/Print Helper.h"; sourceTree = SOURCE_ROOT; };
+		9B4E51EB1E46DD1200FD4898 /* Print Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Print Helper.m"; path = "PDF Printer for TMLI/Print Helper.m"; sourceTree = SOURCE_ROOT; };
+		9B4E51EC1E46DD1200FD4898 /* Template.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Template.xcassets; path = "PDF Printer for TMLI/Template.xcassets"; sourceTree = SOURCE_ROOT; };
+		9BAB471B1E1E345E00BF517C /* libPDF Printer for TMLI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPDF Printer for TMLI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAB47351E1E440400BF517C /* libPDF Printer Library for TMLI SPAJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPDF Printer Library for TMLI SPAJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAB47181E1E345E00BF517C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB47321E1E440400BF517C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAB47121E1E345E00BF517C = {
+			isa = PBXGroup;
+			children = (
+				9BAB471D1E1E345E00BF517C /* PDF Printer for TMLI */,
+				9BAB471C1E1E345E00BF517C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAB471C1E1E345E00BF517C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAB471B1E1E345E00BF517C /* libPDF Printer for TMLI.a */,
+				9BAB47351E1E440400BF517C /* libPDF Printer Library for TMLI SPAJ.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAB471D1E1E345E00BF517C /* PDF Printer for TMLI */ = {
+			isa = PBXGroup;
+			children = (
+				9BAB472F1E1E38BA00BF517C /* Function */,
+				9BAB47301E1E38C700BF517C /* Paper Format */,
+				9BAB472E1E1E38A700BF517C /* Asset */,
+			);
+			name = "PDF Printer for TMLI";
+			path = "PDF Printer for TMLI SPAJ";
+			sourceTree = "<group>";
+		};
+		9BAB472E1E1E38A700BF517C /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E51EC1E46DD1200FD4898 /* Template.xcassets */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		9BAB472F1E1E38BA00BF517C /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E51E81E46DD1200FD4898 /* Print Engine.h */,
+				9B4E51E91E46DD1200FD4898 /* Print Engine.m */,
+				9B4E51EA1E46DD1200FD4898 /* Print Helper.h */,
+				9B4E51EB1E46DD1200FD4898 /* Print Helper.m */,
+			);
+			name = Function;
+			sourceTree = "<group>";
+		};
+		9BAB47301E1E38C700BF517C /* Paper Format */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E51E61E46DD1200FD4898 /* Paper Format TMLI SPAJ.h */,
+				9B4E51E71E46DD1200FD4898 /* Paper Format TMLI SPAJ.m */,
+				9B4E51E41E46DD0700FD4898 /* Paper Format TMLI SI.h */,
+				9B4E51E51E46DD1200FD4898 /* Paper Format TMLI SI.m */,
+			);
+			name = "Paper Format";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAB471A1E1E345E00BF517C /* PDF Printer for TMLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAB47241E1E345E00BF517C /* Build configuration list for PBXNativeTarget "PDF Printer for TMLI" */;
+			buildPhases = (
+				9BAB47171E1E345E00BF517C /* Sources */,
+				9BAB47181E1E345E00BF517C /* Frameworks */,
+				9BAB47191E1E345E00BF517C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDF Printer for TMLI";
+			productName = "PDF Printer for TMLI SPAJ";
+			productReference = 9BAB471B1E1E345E00BF517C /* libPDF Printer for TMLI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BAB47341E1E440400BF517C /* PDF Printer Library for TMLI SPAJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAB473D1E1E440500BF517C /* Build configuration list for PBXNativeTarget "PDF Printer Library for TMLI SPAJ" */;
+			buildPhases = (
+				9BAB47311E1E440400BF517C /* Sources */,
+				9BAB47321E1E440400BF517C /* Frameworks */,
+				9BAB47331E1E440400BF517C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDF Printer Library for TMLI SPAJ";
+			productName = "PDF Printer Library for TMLI SPAJ";
+			productReference = 9BAB47351E1E440400BF517C /* libPDF Printer Library for TMLI SPAJ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAB47131E1E345E00BF517C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ibrahim Aziz Tejokusumo";
+				TargetAttributes = {
+					9BAB471A1E1E345E00BF517C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q4NY74HXM4;
+						ProvisioningStyle = Automatic;
+					};
+					9BAB47341E1E440400BF517C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q4NY74HXM4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BAB47161E1E345E00BF517C /* Build configuration list for PBXProject "PDF Printer for TMLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BAB47121E1E345E00BF517C;
+			productRefGroup = 9BAB471C1E1E345E00BF517C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAB471A1E1E345E00BF517C /* PDF Printer for TMLI */,
+				9BAB47341E1E440400BF517C /* PDF Printer Library for TMLI SPAJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAB47171E1E345E00BF517C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4E51EE1E46DD1200FD4898 /* Paper Format TMLI SPAJ.m in Sources */,
+				9B4E51EF1E46DD1200FD4898 /* Print Engine.m in Sources */,
+				9B4E51F01E46DD1200FD4898 /* Print Helper.m in Sources */,
+				9B4E51ED1E46DD1200FD4898 /* Paper Format TMLI SI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAB47311E1E440400BF517C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BAB47221E1E345E00BF517C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BAB47231E1E345E00BF517C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BAB47251E1E345E00BF517C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q4NY74HXM4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9BAB47261E1E345E00BF517C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q4NY74HXM4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9BAB473B1E1E440500BF517C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q4NY74HXM4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9BAB473C1E1E440500BF517C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q4NY74HXM4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAB47161E1E345E00BF517C /* Build configuration list for PBXProject "PDF Printer for TMLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAB47221E1E345E00BF517C /* Debug */,
+				9BAB47231E1E345E00BF517C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAB47241E1E345E00BF517C /* Build configuration list for PBXNativeTarget "PDF Printer for TMLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAB47251E1E345E00BF517C /* Debug */,
+				9BAB47261E1E345E00BF517C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAB473D1E1E440500BF517C /* Build configuration list for PBXNativeTarget "PDF Printer Library for TMLI SPAJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAB473B1E1E440500BF517C /* Debug */,
+				9BAB473C1E1E440500BF517C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAB47131E1E345E00BF517C /* Project object */;
+}
